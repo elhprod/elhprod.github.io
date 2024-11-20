@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Your Name]'s Professional Work">
+    <title>Professional Work - [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .top-bar button {
+            flex: 1;
+            padding: 10px;
+            color: white;
+            background-color: #555;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .top-bar button:hover {
+            background-color: #777;
+        }
+
+        .top-bar button:first-child {
+            border-right: 1px solid #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <button onclick="alert('Left Button Clicked!')">ENGINEERING</button>
+        <button onclick="alert('Right Button Clicked!')">PHOTOGRAPHY</button>
+    </div>
+    <div style="padding-top: 60px;"> <!-- Adjust padding to prevent content overlap -->
+        <p>Content of the page goes here.</p>
+    </div>
+
+
+
+
+
+    <!-- Professional Work Header -->
+    <header class="section-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+            </ul>
+        </nav>
+        <h1>Professional Work</h1>
+    </header>
+
+    <main>
+        <section id="clients">
+            <h2>Clients I've Worked With</h2>
+            <ul>
+                <li>Client 1</li>
+                <li>Client 2</li>
+                <li>Client 3</li>
+            </ul>
+        </section>
+
+        <section id="case-studies">
+            <h2>Case Studies</h2>
+            <article>
+                <h3>Case Study Title</h3>
+                <p>[Description of the project or work done for a professional client.]</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

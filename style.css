@@ -118,7 +118,7 @@ footer {
 
 /* Top bar desing */
 
-.top-bar {
+.top-bar-engineering {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,10 +129,10 @@ footer {
     z-index: 1000;
 }
 
-.top-bar button {
+.top-bar-engineering button {
     flex: 1;
     padding: 10px;
-    color: white;
+    color: #a6a6a6;
     background-color: #3b3535;
     border: none;
     cursor: pointer;
@@ -142,10 +142,43 @@ footer {
     font-weight: lighter;
 }
 
-.top-bar button:hover {
+.top-bar-engineering button:hover {
+    background-color: #1d1d1d;
+}
+
+.top-bar-engineering button:first-child {
+    border-right: 1px solid #444;
+}
+
+
+.top-bar-photography {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-bar-photography button {
+    flex: 1;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #3b3535;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.top-bar-photography button:hover {
     background-color: #777;
 }
 
-.top-bar button:first-child {
+.top-bar-photography button:first-child {
     border-right: 1px solid #444;
 }
